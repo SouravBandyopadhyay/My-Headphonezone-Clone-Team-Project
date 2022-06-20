@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="http://www.google.com/s2/favicons?domain=https://www.headphonezone.in/"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"rel="stylesheet"/>
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css">
+  </head>
+  <body>
+    <div id="img-container">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0153/8863/collections/e8c4c613a0fe3b8ae2113d1a5818762c_1380x.jpg?v=1590567598"
+        alt=""
+      />
+    </div>
+    <div id="sort">
+      <label for="">Sort by: &nbsp;</label>
+      <select name="" id="sorting">
+        <option value="all">Featured</option>
+        <option value="A">Alphabetically, A-Z</option>
+        <option value="Z">Alphabetically, Z-A</option>
+        <option value="low">Price, low to high</option>
+        <option value="high">Price, high to low</option>
+      </select>
+    </div>
+    <div id="container">
+      <div id="select">
+        <h2>FILTERS</h2>
+        <hr />
+        <div class="accordion">
+          <button type="button" class="accordion_btn">BRAND</button>
+          <div class="accordion_content">
+            <div id="item-1">
+              <input type="checkbox" value="JBL" />
+              <label>JBL</label>
+            </div>
+            <div>
+              <input type="checkbox" value="SHURE" />
+              <label>SHURE</label>
+            </div>
+            <div>
+              <input type="checkbox" value="EDX" />
+              <label>EDX</label>
+            </div>
+            <div>
+              <input type="checkbox" value="EDIFIER" />
+              <label>EDIFIER</label>
+            </div>
+          </div>
+          <hr />
+          <button type="button" class="accordion_btn">Stock</button>
+          <div class="accordion_content">
+            <div id="item-2">
+              <input type="checkbox" value="Instock" />
+              <label>In Stock (5)</label>
+              <input type="checkbox" value="Out of stock" />
+              <label>Out of stock (20)</label>
+            </div>
+            <hr />
+          </div>
+          <hr />
+          <button type="button" class="accordion_btn">Product Type</button>
+          <div class="accordion_content">
+            <div id="item-3">
+              <input type="checkbox" value="wired" />
+              <label>Wired</label>
+              <input type="checkbox" value="Wireless" />
+              <label>Wireless</label>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <!-- <button class="dropdown-btn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <input type="checkbox">
+              </div> -->
+        <!-- side bar dropdown menu here -->
+      </div>
+      <div id="product">
+        <!-- appending the products details on body  -->
+      </div>
+    </div>
+  </body>
+</html>
+<script src="product.js"></script>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="http://www.google.com/s2/favicons?domain=https://www.headphonezone.in/"
+    />
+    <title>Price Range</title>
+    <link rel="stylesheet" href="range.css">
+  </head>
+  <body>
+    <div id="head">
+      <h1>What's Your Budget?</h1>
+      <h2>Why do we ask?</h2>
+      <p>Better sounding headphones tend to cost more money.</p>
+    </div>
+    <div class="slidecontainer">
+      <input
+        type="range"
+        min="1000"
+        max="10000"
+        value="5000"
+        steps="1000"
+        class="slider"
+        id="myRange"
+      />
+      <p>Value: <span id="demo"></span></p>
+    </div>
+    <button type="submit">Submit</button>
+  </body>
+</html>
+<script src="range.js"></script>

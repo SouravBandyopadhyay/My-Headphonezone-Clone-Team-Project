@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information-HeadphoneZone-Checkout</title>
+    <link
+      rel="icon"
+      href="http://www.google.com/s2/favicons?domain=https://www.headphonezone.in/"/>
+    <link rel="stylesheet" href="payment.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="head_logo">
+        <img
+          src="https://cdn.grabon.in/gograbon/images/merchant/1619506977243/headphone-zone-logo.jpg"
+        />
+        <p>Cart > <b>Information ></b> Payment</p>
+        <div id="contact">
+          <h3>Contact information</h3>
+          <img
+            src="https://www.linkpicture.com/q/Screenshot-2022-06-16-235950.png"
+            type="image"
+          />
+
+          <!-- if required input here name and logout here hardcode it -->
+          <br />
+          <input type="checkbox" />Email and WhatsApp me with news and offers
+        </div>
+
+        <div id="GST">
+          <div id="item-1">
+            <p>
+              GST details: &nbsp; &nbsp; Is your organisation registered under
+              GST ACT in India?
+            </p>
+          </div>
+          <div id="item-2" style="background-color: white">
+            <input type="radio" />&nbsp; Yes, registered under GST ACT &nbsp;
+            &nbsp; &nbsp; &nbsp;<input type="radio" /> No, not registered under
+            GST ACT.
+          </div>
+          <div id="item-3">
+            Please enter your GST number now. Once order has been placed, no
+            modifications can be made to add your GST number to the invoice.
+          </div>
+        </div>
+        <h2>Shipping Address</h2>
+        <form>
+          <div id="item-1">
+            <select name="country">
+              <option value="" disabled selected hidden>
+                Choose Country/Region...
+              </option>
+              <option>India</option>
+              <option>United States Of America</option>
+              <option>France</option>
+              <option>Russia</option>
+              <option>Nepal</option>
+              <option>China</option>
+              <option>Japan</option>
+              <option>Brazil</option>
+            </select>
+          </div>
+          <div id="item-2">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-3">
+            <input
+              type="text"
+              name="last_name"
+              placeholder="Last Name"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-4">
+            <input
+              type="text"
+              name="address"
+              placeholder="Address"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-5">
+            <input
+              type="text"
+              name="city"
+              placeholder="City"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-6">
+            <input
+              type="text"
+              name="state"
+              placeholder="State"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-7">
+            <input
+              type="number"
+              name="pincode"
+              placeholder="PINCODE"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-8">
+            <input
+              type="number"
+              name="phone"
+              placeholder="Phone"
+              style="font-size: 15px"
+            />
+          </div>
+          <div id="item-9">
+            <button type="submit" name="submit" id="final">
+              Continue to payment Method
+            </button>
+          </div>
+        </form>
+        <div id="last-sec">
+          <p>
+            <b
+              >Cash on Delivery is currently not available to ensure COVID-19
+              safety protocols.</b
+            >
+          </p>
+          <hr />
+          <p>
+            Refund Policy &nbsp; &nbsp; Privacy policy &nbsp;&nbsp; Terms of
+            service &nbsp; &nbsp; <p id="del">Delivery Details</p>
+          </p>
+        </div>
+      </div>
+      <div id="right">
+        <h1>TOTAL</h1>
+        <span id="total"></span>
+        <div id="container">
+          <div>
+            <table>
+              <tbody>
+                <!-- append cart products -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="payment.js"></script>
